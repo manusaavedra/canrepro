@@ -5,38 +5,17 @@ import {
     NavbarBrand,
     NavbarContent,
     NavbarItem,
-    NavbarMenuToggle,
-    NavbarMenu,
-    NavbarMenuItem,
     Button
 } from "@nextui-org/react";
 import { BsWhatsapp } from "react-icons/bs"
 import Logo from "./Logo.jsx";
-import { useState } from "react";
 import Link from "next/link.js";
 import { config } from "@/constants.js";
 
 export default function Header() {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-    const menuItems = [
-        {
-            name: "Inicio",
-            url: "/"
-        },
-        {
-            name: "Contacto",
-            url: "/#contact"
-        },
-    ];
-
     return (
-        <Navbar className="px-4 py-2 text-black" onMenuOpenChange={setIsMenuOpen}>
+        <Navbar className="px-4 py-2 text-black">
             <NavbarContent>
-                <NavbarMenuToggle
-                    aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-                    className="sm:hidden"
-                />
                 <NavbarBrand>
                     <Logo />
                 </NavbarBrand>
