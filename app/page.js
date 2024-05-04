@@ -20,7 +20,7 @@ export default function Home() {
                                 <BsWhatsapp size={24} />
                                 Whatsapp
                             </Button>
-                            <Button as={Link} size="lg" className="bg-black text-white" href={`tel://${config.contact.tel}`} variant="flat">
+                            <Button as={Link} size="lg" className="bg-black text-white" href={`tel://${config.contact.tel.value}`} variant="flat">
                                 <BsPhoneVibrate size={24} />
                                 Llamar
                             </Button>
