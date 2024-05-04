@@ -4,7 +4,6 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { BsPhoneVibrate, BsWhatsapp } from "react-icons/bs";
 
-const Map = dynamic(() => import("@/components/Map"), { ssr: false })
 
 export default function Home() {
     return (
@@ -36,7 +35,6 @@ export default function Home() {
             </section>
             <section id="contact">
                 <div className="p-4 max-w-5xl mx-auto">
-                    <Map />
                 </div>
             </section>
         </main>
