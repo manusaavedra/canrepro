@@ -13,7 +13,7 @@ export default function Home() {
                 <div className="flex min-h-[400px] flex-col-reverse md:flex-row p-4 items-center gap-8 max-w-5xl mx-auto">
                     <div className="flex flex-col items-center md:items-start gap-4">
                         <div className="text-center md:text-left">
-                            <h1 className="text-4xl mb-4 sm:text-5xl font-bold">Expertos en llaves y ECUs para tu coche</h1>
+                            <h1 className="text-4xl mb-4 sm:text-5xl font-bold">Expertos en <span className="text-green-600">llaves</span> y <span className="text-green-600">ECUs</span> para tu coche</h1>
                             <h4 className="text-xl">Programación de llaves de tu coche en Ibiza</h4>
                         </div>
                         <div className="flex items-center gap-4">
@@ -21,7 +21,7 @@ export default function Home() {
                                 <BsWhatsapp size={24} />
                                 Whatsapp
                             </Button>
-                            <Button as={Link} size="lg" className="bg-black text-white" href={`tel://${config.contact.tel.value}`} variant="flat">
+                            <Button as={Link} size="lg" className="bg-gray-200 text-black" href={`tel://${config.contact.tel.value}`} variant="flat">
                                 <BsPhoneVibrate size={24} />
                                 Llamar
                             </Button>
@@ -29,18 +29,18 @@ export default function Home() {
                     </div>
                     <div>
                         <picture>
-                            <img width={320} src="/girls-keys.png" alt="Mujer con llaves de coche" />
+                            <img className="w-[320px] md:w-[420px]" src="/girls-keys.png" alt="Mujer con llaves de coche" />
                         </picture>
                     </div>
                 </div>
             </section>
-            <section className="py-10 bg-gradient-to-r from-green-600 to-green-500 text-white">
+            <section className="py-10 bg-gray-100">
                 <div className="min-h-[300px] p-4 max-w-5xl mx-auto">
                     <h2 className="text-4xl font-bold mb-8 text-center">Nuestros Servicios</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {
                             config.services.map((service) => (
-                                <div className="hover:border-green-900 border-green-800 p-4 py-6 border-3 rounded-lg flex items-center justify-center text-center" key={service}>
+                                <div className="bg-white p-4 py-6 border-3 rounded-lg flex items-center justify-center text-center" key={service}>
                                     <h4 className="text-xl font-semibold">{service}</h4>
                                 </div>
                             ))
@@ -60,7 +60,7 @@ export default function Home() {
                                 <BsWhatsapp size={24} />
                                 Whatsapp
                             </Button>
-                            <Button as={Link} size="lg" className="bg-black text-white" href={`tel://${config.contact.tel.value}`} variant="flat">
+                            <Button as={Link} size="lg" className="bg-gray-200 text-black" href={`tel://${config.contact.tel.value}`} variant="flat">
                                 <BsPhoneVibrate size={24} />
                                 Llamar
                             </Button>
