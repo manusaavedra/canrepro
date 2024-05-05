@@ -14,7 +14,7 @@ import { config } from "@/constants.js";
 
 export default function Header() {
     return (
-        <Navbar className="px-4 py-2 text-black">
+        <Navbar className="py-2 text-black">
             <NavbarContent>
                 <NavbarBrand>
                     <Logo />
@@ -36,11 +36,10 @@ export default function Header() {
                 */
             }
 
-            <NavbarContent justify="end">
+            <NavbarContent className="hidden sm:flex" justify="end">
                 <NavbarItem>
-                    <Button as={Link} size="md" className="bg-green-600 text-white" href={config.contact.whatsapp} variant="flat">
+                    <Button isIconOnly as={Link} size="md" className="bg-green-600 text-white" href={config.contact.whatsapp} variant="flat">
                         <BsWhatsapp size={24} />
-                        Contactar
                     </Button>
                 </NavbarItem>
             </NavbarContent>

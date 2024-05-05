@@ -1,10 +1,10 @@
+import Map from "@/components/Map";
 import { config } from "@/constants";
 import { Button } from "@nextui-org/react";
-import dynamic from "next/dynamic";
 import Link from "next/link";
 import { BsPhoneVibrate, BsWhatsapp } from "react-icons/bs";
 
-const Map = dynamic(import("@/components/Map"), { ssr: false })
+//const Map = dynamic(import("../components/Map"), { ssr: false })
 
 export default function Home() {
     return (
@@ -35,7 +35,7 @@ export default function Home() {
                 </div>
             </section>
             <section id="contact">
-                <div className="p-4 max-w-5xl mx-auto">
+                <div className="flex min-h-[300px] items-center justify-center p-4 max-w-5xl mx-auto">
                     <Map />
                 </div>
             </section>
