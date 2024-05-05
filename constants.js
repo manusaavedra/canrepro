@@ -7,5 +7,13 @@ export const config = {
         email: "contacto@canrepro.com",
         address: "C/ pere francés 42, local 07800 Ibiza",
         whatsapp: "https://wa.link/3f7jmt"
-    }
+    },
+    services: [
+        "Duplicado y Programación de Llaves de Auto",
+        "Diagnosis Avanzada OBD",
+        "Lectura y Reparación de Centralitas y Módulos",
+        "Sistema de Inmovilización, EGR, FAP, ADBLUE",
+        "Mando de Garaje",
+        "Diagnosis Marina"
+    ]
 } 

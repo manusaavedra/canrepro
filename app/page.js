@@ -9,7 +9,7 @@ import { BsPhoneVibrate, BsWhatsapp } from "react-icons/bs";
 export default function Home() {
     return (
         <main>
-            <section>
+            <section className="py-10">
                 <div className="flex min-h-[400px] flex-col-reverse md:flex-row p-4 items-center gap-8 max-w-5xl mx-auto">
                     <div className="flex flex-col items-center md:items-start gap-4">
                         <div className="text-center md:text-left">
@@ -34,9 +34,41 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section id="contact">
-                <div className="flex min-h-[300px] items-center justify-center p-4 max-w-5xl mx-auto">
-                    <Map />
+            <section className="py-10 bg-gradient-to-r from-green-600 to-green-500 text-white">
+                <div className="min-h-[300px] p-4 max-w-5xl mx-auto">
+                    <h2 className="text-4xl font-bold mb-8 text-center">Nuestros Servicios</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                        {
+                            config.services.map((service) => (
+                                <div className="hover:border-green-900 border-green-800 p-4 py-6 border-3 rounded-lg flex items-center justify-center text-center" key={service}>
+                                    <h4 className="text-xl font-semibold">{service}</h4>
+                                </div>
+                            ))
+                        }
+                    </div>
+                </div>
+            </section>
+            <section id="contact" className="py-10">
+                <div className="min-h-[300px] grid grid-cols-1 md:grid-cols-2 gap-4 p-4 max-w-5xl mx-auto">
+                    <div className="text-center md:text-left">
+                        <h2 className="text-4xl font-bold mb-6">Contacto</h2>
+                        <p>{config.contact.address}</p>
+                        <p>{config.contact.email}</p>
+                        <p>{config.contact.tel.text}</p>
+                        <div className="flex items-center md:justify-start justify-center my-4 gap-4">
+                            <Button as={Link} className="bg-green-600 text-white" size="lg" color="success" href={config.contact.whatsapp} variant="flat">
+                                <BsWhatsapp size={24} />
+                                Whatsapp
+                            </Button>
+                            <Button as={Link} size="lg" className="bg-black text-white" href={`tel://${config.contact.tel.value}`} variant="flat">
+                                <BsPhoneVibrate size={24} />
+                                Llamar
+                            </Button>
+                        </div>
+                    </div>
+                    <div>
+                        <Map />
+                    </div>
                 </div>
             </section>
         </main>
