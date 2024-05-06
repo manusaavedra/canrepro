@@ -26,7 +26,7 @@ export default function Home() {
                     </div>
                     <div>
                         <picture>
-                            <img className="w-[320px] md:w-[420px]" src="/girls-keys.png" alt="Mujer con llaves de coche" />
+                            <img className="w-[320px] md:w-[420px]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6IIDumvtF5msO19B_KYps17McbQezyhWiybf8CBHxTA&s" alt="llaves de coche" />
                         </picture>
                     </div>
                 </div>
