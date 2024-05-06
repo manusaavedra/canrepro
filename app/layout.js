@@ -9,7 +9,7 @@ export const metadata = {
   title: 'CanRepro',
   description: 'Expertos en llaves y ECUs para coches',
   openGraph: {
-    images: ['https://th.bing.com/th/id/OIP.j9pKlQsgEXEoHZnfAkOLWAHaFP?rs=1&pid=ImgDetMain']
+    images: ['https://canrepro.com/open-graph-image.jpg']
   }
 }
 

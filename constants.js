@@ -16,7 +16,7 @@ export const config = {
         "Chips",
         "Transponder",
         "Códigos de radio",
-        "Carcasas",
+        "Carcasas y fundas",
         "Microsoldura",
         "Pérdida total",
         "Electrónica general",
