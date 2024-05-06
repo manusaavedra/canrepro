@@ -19,7 +19,8 @@ export const config = {
         "Carcasas",
         "Microsoldura",
         "Pérdida total",
-        "Electrónica general"
+        "Electrónica general",
+        "Pilas y Baterías"
     ],
     services: [
         {
