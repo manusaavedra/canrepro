@@ -15,7 +15,7 @@ export const config = {
         "Transponder",
         "Carcasas",
         "Reparación de botones",
-        "Perdida total",
+        "Pérdida total",
         "Electronica general"
     ],
     services: [
