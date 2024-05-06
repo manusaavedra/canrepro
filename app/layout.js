@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'CanRepro',
   description: 'Expertos en llaves y ECUs para coches',
+  openGraph: {
+    images: ['https://th.bing.com/th/id/OIP.j9pKlQsgEXEoHZnfAkOLWAHaFP?rs=1&pid=ImgDetMain']
+  }
 }
 
 export default function RootLayout({ children }) {
