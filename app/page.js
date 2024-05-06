@@ -24,7 +24,7 @@ export default function Home() {
                         <div className="flex w-full overflow-x-hidden flex-wrap items-center justify-center md:justify-start gap-2">
                             {
                                 config.otherServices.map((service) => (
-                                    <p key={service} className="p-1 text-sm font-semibold min-w-fit rounded-md bg-gray-200">{service}</p>
+                                    <p key={service} className="p-1 text-sm font-semibold min-w-fit rounded-md bg-gray-100">{service}</p>
                                 ))
                             }
                         </div>
