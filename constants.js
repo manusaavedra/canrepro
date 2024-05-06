@@ -32,7 +32,7 @@ export const config = {
             image: "https://static.wixstatic.com/media/61f347_dfba4ae981bc46998ac712b74a1969bf~mv2.jpg/v1/fill/w_1920,h_1282,al_c,q_90,usm_0.66_1.00_0.01/61f347_dfba4ae981bc46998ac712b74a1969bf~mv2.jpg"
         },
         {
-            name: "Sistema de Inmovilización, EGR, FAP, ADBLUE",
+            name: "Sistema de Inmovilización, EGR, AirBag, FAP, ADBLUE",
             image: "https://s1.eestatic.com/2017/04/14/motor/motor_208489628_32648455_1024x576.jpg"
         },
         {
