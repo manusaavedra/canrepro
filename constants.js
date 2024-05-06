@@ -6,7 +6,7 @@ export const config = {
         },
         email: "Contacto@canrepro.com",
         address1: "C/ pere francés 42, ",
-        address2: "local 07800 Ibiza",
+        address2: "07800 Ibiza, Islas Baleares",
         week: "Horario: Lunes-Viernes 10-19h",
         whatsapp: "https://wa.link/3f7jmt"
     },
