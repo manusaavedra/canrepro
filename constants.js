@@ -14,7 +14,7 @@ export const config = {
         "Chips",
         "Transponder",
         "Carcasas",
-        "Reparación de botones",
+        "Micro Soldura",
         "Pérdida total",
         "Electronica general"
     ],
