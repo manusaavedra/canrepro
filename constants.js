@@ -8,6 +8,16 @@ export const config = {
         address: "C/ pere francés 42, local 07800 Ibiza",
         whatsapp: "https://wa.link/3f7jmt"
     },
+    otherServices: [
+        "Programación",
+        "Telemandos",
+        "Chips",
+        "Transponder",
+        "Carcasas",
+        "Reparación de botones",
+        "Perdida total",
+        "Electronica general"
+    ],
     services: [
         "Duplicado y Programación de Llaves de Auto",
         "Diagnosis Avanzada OBD",
