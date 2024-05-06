@@ -4,8 +4,6 @@ import { Button } from "@nextui-org/react";
 import Link from "next/link";
 import { BsPhoneVibrate, BsWhatsapp } from "react-icons/bs";
 
-//const Map = dynamic(import("../components/Map"), { ssr: false })
-
 export default function Home() {
     return (
         <main>
