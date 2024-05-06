@@ -37,7 +37,7 @@ export const config = {
         },
         {
             name: "Mando de Garaje",
-            image: "https://th.bing.com/th/id/OIP.j9pKlQsgEXEoHZnfAkOLWAHaFP?rs=1&pid=ImgDetMain"
+            image: "https://www.cerrajeriaplacer.com/duplicado-de-mandos-de-coche-cuanto-cuesta_img91041t1.jpg"
         },
         {
             name: "Diagnosis Marina",

@@ -52,8 +52,8 @@ export default function Home() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {
                             config.services.map(({ name, image }) => (
-                                <div className="bg-green-600 text-white overflow-hidden rounded-lg flex flex-col items-center justify-center text-center" key={name}>
-                                    <picture className="grid place-items-center w-full h-[180px] rounded-sm overflow-hidden">
+                                <div className="bg-green-600 text-white overflow-hidden rounded-lg flex flex-col items-center text-center" key={name}>
+                                    <picture className="flex items-center w-full h-[180px] rounded-sm overflow-hidden">
                                         <img className="w-full" src={image} alt={name} />
                                     </picture>
                                     <div className="px-4 py-4">
