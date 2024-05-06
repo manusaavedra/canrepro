@@ -69,7 +69,7 @@ export default function Home() {
                 <div className="min-h-[300px] grid grid-cols-1 md:grid-cols-2 gap-4 p-4 max-w-5xl mx-auto">
                     <div className="text-center md:text-left">
                         <h2 className="text-4xl font-bold mb-6">Contacto</h2>
-                        <a className="">{config.contact.address}</a>
+                        <a className="capitalize">{config.contact.address}</a>
                         <p>
                             <a className="hover:underline" href={`mailto://${config.contact.email}`}>{config.contact.email}</a>
                         </p>
