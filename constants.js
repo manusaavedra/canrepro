@@ -19,7 +19,6 @@ export const config = {
         "Electronica general"
     ],
     services: [
-        "Duplicado y Programación de Llaves de Auto",
         "Diagnosis Avanzada OBD",
         "Lectura y Reparación de Centralitas y Módulos",
         "Sistema de Inmovilización, EGR, FAP, ADBLUE",
