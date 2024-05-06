@@ -13,10 +13,11 @@ export const config = {
         "Telemandos",
         "Chips",
         "Transponder",
+        "Códigos de radio",
         "Carcasas",
-        "Micro Soldura",
+        "Microsoldura",
         "Pérdida total",
-        "Electronica general"
+        "Electrónica general"
     ],
     services: [
         {

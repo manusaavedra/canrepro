@@ -20,6 +20,10 @@ export default function RootLayout({ children }) {
         <UIProvider>
           <Header />
           {children}
+          <footer className="flex flex-col items-center py-2 justify-center">
+            <p> © {new Date().getFullYear()} canrepro.com</p>
+            <p className="text-sm">creado por <a className="font-semibold text-green-600" href="https://www.instagram.com/manusaav3dra" target="_blank">webcodedev</a></p>
+          </footer>
         </UIProvider>
       </body>
     </html>

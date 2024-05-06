@@ -71,10 +71,10 @@ export default function Home() {
                         <h2 className={`${blackHans.className} text-4xl font-bold mb-6`}>Contacto</h2>
                         <a className="capitalize">{config.contact.address}</a>
                         <p>
-                            <a className="hover:underline" href={`mailto://${config.contact.email}`}>{config.contact.email}</a>
+                            <a className="hover:underline font-semibold text-green-700" href={`mailto://${config.contact.email}`}>{config.contact.email}</a>
                         </p>
                         <p>
-                            <a className="hover:underline" href={`tel://${config.contact.tel.value}`}>{config.contact.tel.text}</a>
+                            <a className="hover:underline font-semibold text-green-700" href={`tel://${config.contact.tel.value}`}>{config.contact.tel.text}</a>
                         </p>
                     </div>
                     <div className="p-2 bg-green-600 rounded-lg">
