@@ -36,7 +36,7 @@ export const config = {
             image: "https://s1.eestatic.com/2017/04/14/motor/motor_208489628_32648455_1024x576.jpg"
         },
         {
-            name: "Mando de Garaje",
+            name: "Mandos de Garaje",
             image: "https://www.cerrajeriaplacer.com/duplicado-de-mandos-de-coche-cuanto-cuesta_img91041t1.jpg"
         },
         {
