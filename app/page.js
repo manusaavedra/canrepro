@@ -13,7 +13,11 @@ export default function Home() {
                         <div className="text-center md:text-left">
                             <h1 className="text-4xl mb-4 sm:text-5xl font-bold">Copia de llaves de <span className="text-green-600">coches</span> y <span className="text-green-600">motos</span> en Ibiza</h1>
                             <div className="flex items-center gap-2">
-                                
+                                {
+                                    config.otherServices.map((service)=>(
+                                        <p className="p-1 font-semibold rounded-md bg-gray-200">{service}</p>
+                                    ))
+                                }
                             </div>
                         </div>
                         <div className="flex items-center gap-4">
