@@ -15,7 +15,7 @@ export default function Home() {
                             <div className="flex items-center gap-2">
                                 {
                                     config.otherServices.map((service)=>(
-                                        <p className="p-1 font-semibold rounded-md bg-gray-200">{service}</p>
+                                        <p key={service} className="p-1 font-semibold rounded-md bg-gray-200">{service}</p>
                                     ))
                                 }
                             </div>
