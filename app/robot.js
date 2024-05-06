@@ -4,6 +4,6 @@ export default function robots() {
             userAgent: '*',
             allow: '/',
         },
-        sitemap: 'https://canrepro.com/sitemap.xml',
+        sitemap: 'https://www.canrepro.com/sitemap.xml',
     }
 }
