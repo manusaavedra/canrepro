@@ -12,6 +12,9 @@ export default function Home() {
                     <div className="flex flex-col items-center md:items-start gap-4">
                         <div className="text-center md:text-left">
                             <h1 className="text-4xl mb-4 sm:text-5xl font-bold">Copia de llaves de <span className="text-green-600">coches</span> y <span className="text-green-600">motos</span> en Ibiza</h1>
+                            <div className="flex items-center gap-2">
+                                
+                            </div>
                         </div>
                         <div className="flex items-center gap-4">
                             <Button as={Link} className="bg-green-600 text-white" size="lg" color="success" href={config.contact.whatsapp} variant="flat">
