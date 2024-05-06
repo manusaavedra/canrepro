@@ -69,13 +69,19 @@ export default function Home() {
                 <div className="min-h-[300px] grid grid-cols-1 md:grid-cols-2 gap-4 p-4 max-w-5xl mx-auto">
                     <div className="text-center md:text-left">
                         <h2 className={`${blackHans.className} text-4xl font-bold mb-6`}>Contacto</h2>
-                        <a className="capitalize">{config.contact.address}</a>
-                        <p>
-                            <a className="hover:underline font-semibold text-green-700" href={`mailto://${config.contact.email}`}>{config.contact.email}</a>
-                        </p>
-                        <p>
-                            <a className="hover:underline font-semibold text-green-700" href={`tel://${config.contact.tel.value}`}>{config.contact.tel.text}</a>
-                        </p>
+                        <div className="flex flex-col gap-2">
+                            <div>
+                                <p className="capitalize">{config.contact.address1}</p>
+                                <p className="capitalize">{config.contact.address2}</p>
+                            </div>
+                            <p>
+                                <a className="hover:underline font-semibold" href={`tel://${config.contact.tel.value}`}>{config.contact.tel.text}</a>
+                            </p>
+                            <p>{config.contact.week}</p>
+                            <p>
+                                <a className="hover:underline font-semibold" href={`mailto://${config.contact.email}`}>{config.contact.email}</a>
+                            </p>
+                        </div>
                     </div>
                     <div className="p-2 bg-green-600 rounded-lg">
                         <Map />

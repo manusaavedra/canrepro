@@ -4,8 +4,10 @@ export const config = {
             text: "+34 604 919 283",
             value: "34604919283"
         },
-        email: "contacto@canrepro.com",
-        address: "C/ pere francés 42, local 07800 Ibiza",
+        email: "Contacto@canrepro.com",
+        address1: "C/ pere francés 42, ",
+        address2: "local 07800 Ibiza",
+        week: "Horario: Lunes-Viernes 10-19h",
         whatsapp: "https://wa.link/3f7jmt"
     },
     otherServices: [
