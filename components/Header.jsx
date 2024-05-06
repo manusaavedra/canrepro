@@ -36,14 +36,6 @@ export default function Header() {
                 */
             }
 
-            <NavbarContent className="hidden sm:flex" justify="end">
-                <NavbarItem>
-                    <Button isIconOnly as={Link} size="md" className="bg-green-600 text-white" href={config.contact.whatsapp} variant="flat">
-                        <BsWhatsapp size={24} />
-                    </Button>
-                </NavbarItem>
-            </NavbarContent>
-
             {
                 /*
                 <NavbarMenu className="py-2">
