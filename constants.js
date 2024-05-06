@@ -37,7 +37,7 @@ export const config = {
         },
         {
             name: "Diagnosis Marina",
-            image: ""
+            image: "https://audiors.com/wp-content/uploads/2018/10/DIAGNOSIS-MARINA-HUELVA-MOTORES-EMBARCACIONES-03.jpg"
         }
     ]
 } 
