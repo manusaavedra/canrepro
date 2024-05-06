@@ -75,12 +75,12 @@ export default function Home() {
                                 <p className="capitalize">{config.contact.address2}</p>
                             </div>
                             <p>
-                                <a className="hover:underline font-semibold" href={`tel://${config.contact.tel.value}`}>{config.contact.tel.text}</a>
+                                <a className="hover:underline text-green-600 font-semibold" href={`tel://${config.contact.tel.value}`}>{config.contact.tel.text}</a>
+                            </p>
+                            <p>
+                                <a className="hover:underline text-green-600 font-semibold" href={`mailto://${config.contact.email}`}>{config.contact.email}</a>
                             </p>
                             <p>{config.contact.week}</p>
-                            <p>
-                                <a className="hover:underline font-semibold" href={`mailto://${config.contact.email}`}>{config.contact.email}</a>
-                            </p>
                         </div>
                     </div>
                     <div className="p-2 bg-green-600 rounded-lg">
