@@ -78,7 +78,7 @@ export default function Home() {
                                 <a className="hover:underline text-green-600 font-semibold" href={`tel://${config.contact.tel.value}`}>{config.contact.tel.text}</a>
                             </p>
                             <p>
-                                <a className="hover:underline text-green-600 font-semibold" href={`mailto://${config.contact.email}`}>{config.contact.email}</a>
+                                <a className="hover:underline text-green-600 font-semibold" href={`mailto:${config.contact.email}`}>{config.contact.email}</a>
                             </p>
                             <p>{config.contact.week}</p>
                         </div>
