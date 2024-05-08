@@ -6,7 +6,7 @@ import UIProvider from '@/components/UIProvider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'CanRepro',
+  title: 'Can Repro | Copias de llaves de coche y motos en Ibiza',
   description: 'Expertos en llaves y ECUs para coches',
   openGraph: {
     images: ['https://canrepro.com/open-graph-image.jpg']
